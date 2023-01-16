@@ -7,10 +7,10 @@ const count = ref(0);
 </script>
 
 <template>
-	<h1>{{ msg }}</h1>
-
-	<div class="card">
+	<div class="grid grid-cols-1 justify-items-center space-y-5">
+		<h1>{{ msg }}</h1>
 		<button
+			class="btn btn-primary font-bold"
 			type="button"
 			@click="count++"
 		>
@@ -20,30 +20,32 @@ const count = ref(0);
 			Edit
 			<code>components/HelloWorld.vue</code> to test HMR
 		</p>
-	</div>
 
-	<p>
-		Check out
-		<a
-			href="https://vuejs.org/guide/quick-start.html#local"
-			target="_blank"
-			>create-vue</a
-		>, the official Vue + Vite starter
-	</p>
-	<p>
-		Install
-		<a
-			href="https://github.com/johnsoncodehk/volar"
-			target="_blank"
-			>Volar</a
-		>
-		in your IDE for a better DX
-	</p>
-	<p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+		<p>
+			Check out
+			<a
+				class="link"
+				href="https://vuejs.org/guide/quick-start.html#local"
+				target="_blank"
+				>create-vue</a
+			>, the official Vue + Vite starter
+		</p>
+		<p>
+			Install
+			<a
+				class="link"
+				href="https://github.com/johnsoncodehk/volar"
+				target="_blank"
+				>Volar</a
+			>
+			in your IDE for a better DX
+		</p>
+		<p class="read-the-docs">Click on the logos to learn more</p>
+	</div>
 </template>
 
 <style scoped>
 .read-the-docs {
-	color: #888;
+	@apply text-accent;
 }
 </style>

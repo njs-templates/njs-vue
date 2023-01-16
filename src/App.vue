@@ -3,7 +3,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-	<div>
+	<div class="main-content">
 		<a
 			href="https://vitejs.dev"
 			target="_blank"
@@ -26,18 +26,24 @@ import HelloWorld from "./components/HelloWorld.vue";
 		</a>
 	</div>
 	<HelloWorld msg="Vite + Vue" />
-	<button class="btn btn-primary">Wow</button>
 </template>
 
 <style scoped>
+.main-content {
+	@apply flex place-content-center;
+	margin: 0 auto;
+}
+
 .logo {
-	height: 6em;
+	height: 10em;
 	padding: 1.5em;
 	will-change: filter;
 }
+
 .logo:hover {
 	filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vue:hover {
 	filter: drop-shadow(0 0 2em #42b883aa);
 }
