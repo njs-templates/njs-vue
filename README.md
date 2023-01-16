@@ -10,6 +10,15 @@ A nice and simple Vue template to let me (or anyone else) quickly whip up new pr
 -   [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) with some sensible defaults.
 -   [Tailwind CSS](https://tailwindcss.com/) + [DaisyUI](https://daisyui.com/)
 
+### VS Code Extensions
+
+-   [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+-   [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
+-   [JavaScript and TypeScript Nightly](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
+-   [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+-   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+-   [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
 ## Coding style
 
 This ESLint and Prettier config uses double-quotes and semicolons.
