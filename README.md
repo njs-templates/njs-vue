@@ -53,5 +53,5 @@ If no one on your team is using VS Code, just delete the `.vscode/` folder.
 -   [ ] In `package.json`, change the project name and version.
 -   [ ] Delete the `.git/` folder if you cloned this repo.
 -   [ ] Run a `git init` to start tracking changes.
--   [ ] Delete the boilerplate from`src/App.vue` and `src/components/HelloWorld.vue`.
+-   [ ] Delete the boilerplate from`src/App.vue`, `src/components/HelloWorld.vue` and `src/style.css`.
 -   [ ] Do whatever. This code is yours now. Credit is appreciated but not needed.

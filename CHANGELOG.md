@@ -1,5 +1,9 @@
 # Changelog
 
+## V1.0.2
+
+-   Build command no longer gives an error.
+
 ## v1.0.1
 
 -   Added ESLint plugins (for Vue and TypeScript) to package.json.
