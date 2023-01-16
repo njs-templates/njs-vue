@@ -12,11 +12,22 @@ A nice and simple Vue template to let me (or anyone else) quickly whip up new pr
 
 ## Coding style
 
-Example
+This ESLint and Prettier config uses double-quotes and semicolons.
+
+```ts
+const msg = "wow";
+```
 
 ## Installation
 
-Build info
+You can download this repo as a .zip or clone it with git,
+but a cleaner approach is with [degit](https://github.com/Rich-Harris/degit).
+
+```bash
+npx degit njs-templates/njs-vue new-project
+cd new-project
+yarn
+```
 
 ## Recommended IDE
 
@@ -26,7 +37,6 @@ If no one on your team is using VS Code, just delete the `.vscode/` folder.
 
 ## Next steps
 
--   [ ] Run `yarn` to install dependencies.
 -   [ ] Run `yarn dev` to start Vite and make sure everything's working.
 -   [ ] Delete `LICENSE.txt` from the root of the directory.
     -   If your project still uses an MIT License, just edit the author and year.
