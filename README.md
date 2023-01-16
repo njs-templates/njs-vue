@@ -49,6 +49,7 @@ If no one on your team is using VS Code, just delete the `.vscode/` folder.
 -   [ ] Run `yarn dev` to start Vite and make sure everything's working.
 -   [ ] Delete `LICENSE.txt` from the root of the directory.
     -   If your project still uses an MIT License, just edit the author and year.
+-   [ ] Either delete `CHANGELOG.md` or remove its contents.
 -   [ ] In `package.json`, change the project name and version.
 -   [ ] Delete the `.git/` folder if you cloned this repo.
 -   [ ] Run a `git init` to start tracking changes.
