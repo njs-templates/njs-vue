@@ -17,28 +17,32 @@ const count = ref(0);
 			count is {{ count }}
 		</button>
 		<p>
-			Edit
-			<code>components/HelloWorld.vue</code> to test HMR
+			This page works with any Daisy UI theme! Try it out and change
+			<code>daisyui.themes</code> in <code>tailwind.config.cjs</code>.
 		</p>
 
 		<p>
 			Check out
 			<a
 				class="link"
-				href="https://vuejs.org/guide/quick-start.html#local"
+				href="https://github.com/njs-templates"
 				target="_blank"
-				>create-vue</a
-			>, the official Vue + Vite starter
-		</p>
-		<p>
-			Install
+				>NJS Templates</a
+			>
+			and
 			<a
 				class="link"
-				href="https://github.com/johnsoncodehk/volar"
+				href="https://github.com/vitejs/awesome-vite#templates"
 				target="_blank"
-				>Volar</a
 			>
-			in your IDE for a better DX
+				Awesome Vite</a
+			>
+			for more templates.
+		</p>
+		<p>
+			If you can view this page, everything should be working, so open the
+			README in the root of the directory for your next steps and get
+			coding.
 		</p>
 		<p class="read-the-docs">Click on the logos to learn more</p>
 	</div>

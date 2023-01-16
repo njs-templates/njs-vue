@@ -25,7 +25,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 			/>
 		</a>
 	</div>
-	<HelloWorld msg="Vite + Vue" />
+	<HelloWorld msg="Vite + Vue + TypeScript" />
 </template>
 
 <style scoped>
