@@ -49,6 +49,10 @@ const count = ref(0);
 </template>
 
 <style scoped>
+code {
+	@apply bg-base-300;
+}
+
 .read-the-docs {
 	@apply text-accent;
 }
