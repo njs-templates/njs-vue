@@ -5,6 +5,8 @@ A nice and simple Vue template to let me (or anyone else) quickly whip up new pr
 ## Features
 
 - [Vue](https://vuejs.org/) + TypeScript
+- [Vue Router](https://router.vuejs.org/)
+(Router and routes are found in `./src/routes`)
 - [Vite](https://vitejs.dev/)
 - [Yarn](https://yarnpkg.com/) for package management
 - [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)
@@ -58,6 +60,11 @@ If no one on your team is using VS Code, just delete the `.vscode/` folder.
     - If your project still uses an MIT License, just edit the author and year.
 - [ ] Either delete `CHANGELOG.md` or remove its contents.
 - [ ] In `package.json`, change the project name and version.
+- [ ] Sometimes you'll get an error and VS Code can't find Vue files in TS.
+To fix this, go to the extensions tab in VS Code and search "@builtin typescript",
+then disable "TypeScript and JavaScript Language Features."
+The Typescript-Next extension should take over so this won't
+disable any functionality.
 - [ ] Delete the `.git/` folder if you cloned this repo.
 - [ ] Run a `git init` to start tracking changes.
 - [ ] Delete the boilerplate from`src/App.vue`, `src/components/HelloWorld.vue`
