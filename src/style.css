@@ -21,3 +21,7 @@
 h1 {
 	@apply text-4xl;
 }
+
+.router-link-active {
+	@apply tab-active;
+}

@@ -7,8 +7,6 @@ const routes = [
 	{ path: "/other", name: "Other", component: Other },
 ];
 
-// const process =
-
 const router = createRouter({
 	history: createWebHistory("/"),
 	routes,
