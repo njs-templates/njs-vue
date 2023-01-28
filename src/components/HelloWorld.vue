@@ -40,7 +40,7 @@ const count = ref(0);
 			for more templates.
 		</p>
 		<p>
-			If you can view this page, everything should be working, so open the
+			If you can both pages, everything should be working, so open the
 			README in the root of the directory for your next steps and get
 			coding.
 		</p>
