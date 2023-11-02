@@ -11,6 +11,7 @@
   - and more
 - Added format and lint commands
 - Added editorconfig
+- ESLint now extends `vue/vue3-recommended`
 
 ## v1.1.0
 

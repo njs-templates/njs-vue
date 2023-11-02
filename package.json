@@ -6,7 +6,9 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "vue-tsc --noEmit && vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"lint": "prettier --check . && eslint src/**/*.{js,ts,vue}",
+		"format": "prettier --write ."
 	},
 	"dependencies": {
 		"vue": "^3.3.7",
