@@ -2,6 +2,8 @@
 
 ## v1.2.0
 
+November 2, 2023
+
 - Upgraded dependencies for DaisyUI 3
   - Vue: 3.2.45 -> 3.3.7
   - Vue Router: 4.1.6 -> 4.2.5
