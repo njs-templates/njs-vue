@@ -13,6 +13,7 @@
 - Added editorconfig
 - ESLint now extends `vue/vue3-recommended`
 - Added todo's to easily find boilerplate to delete.
+- Added TypeScript logo to homepage
 
 ## v1.1.0
 
