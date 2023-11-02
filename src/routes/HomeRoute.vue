@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from "../components/HelloWorld.vue";
+
+// TODO: Delete this boilerplate
 </script>
 
 <template>
@@ -19,9 +21,20 @@ import HelloWorld from "../components/HelloWorld.vue";
 			target="_blank"
 		>
 			<img
-				src="../assets/vue.svg"
+				src="/vue.svg"
 				class="logo vue"
 				alt="Vue logo"
+			/>
+		</a>
+		<a
+			href="https://www.typescriptlang.org/"
+			target="_blank"
+			rel="noreferrer"
+		>
+			<img
+				src="/typescript.svg"
+				class="logo ts"
+				alt="TypeScript logo"
 			/>
 		</a>
 	</div>

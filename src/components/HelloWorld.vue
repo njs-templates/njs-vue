@@ -4,6 +4,8 @@ import { ref } from "vue";
 defineProps<{ msg: string }>();
 
 const count = ref(0);
+
+// TODO: Delete this boilerplate
 </script>
 
 <template>
@@ -27,16 +29,17 @@ const count = ref(0);
 				class="link"
 				href="https://github.com/njs-templates"
 				target="_blank"
-				>NJS Templates</a
 			>
+				NJS Templates
+			</a>
 			and
 			<a
 				class="link"
 				href="https://github.com/vitejs/awesome-vite#templates"
 				target="_blank"
 			>
-				Awesome Vite</a
-			>
+				Awesome Vite
+			</a>
 			for more templates.
 		</p>
 		<p>
