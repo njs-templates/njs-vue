@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from "../components/HelloWorld.vue";
+
+// TODO: Delete this boilerplate
 </script>
 
 <template>
